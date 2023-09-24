@@ -1,0 +1,105 @@
+body,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 16px;
+  margin: 3em;
+  background-color: pink;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  width: 200px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.title #main-title {
+  text-align: center;
+  margin-top: -45px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 30px;
+}
+
+.section {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 30px 2px 5px 2px;
+  background-color: #f7f1f1;
+  position: relative;
+}
+
+.section-title {
+  width: 150px;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  border: 1px solid #fff;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.bg-color1 {
+  background-color: purple;
+}
+
+.bg-color2 {
+  background-color: blue;
+}
+
+.bg-color3 {
+  background-color: red;
+}
+
+div p {
+  margin: 20px;
+  line-height: 1.6;
+}
+
+
+
+@media (max-width: 767px) {
+
+  .section {
+    margin: 2%;
+    width: 96%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .section {
+    width: 47%;
+    margin: 10px 1.5%;
+    float: left;
+  }
+
+  #third-section {
+    width: 97%;
+  }
+}
+
+@media (min-width: 992px) {
+
+
+  .section {
+    width: 31.33%;
+    height: auto;
+    float: left;
+    margin: 10px 1%;
+  }
+}
